@@ -1,0 +1,201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Fase E:::Documento de Análisis de brecha de Arquitectura de Negocios </title>
+<link href="../../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Fase E:::Documento de Análisis de brecha de Arquitectura de Negocios  </h1>
+			<!-- <img class="header_image" src="../../../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../../../index.htm">Modelados</a> / <a href="../../../../../EA1.htm">Modelos del método BMM</a> / <a href="../../../../EA11.htm">Modelado de Proceso</a> / <a href="../../../EA37.htm">Implementación del método BMM</a> / <a href="../../EA125.htm">Modelado de elementos del Negocio</a> / <a href="../EA191.htm">Diagramas de actividades</a> / <a href="EA199.htm">Fase E</a> / <a href="EA204.htm">:Documento de Análisis de brecha de Arquitectura de Negocios </a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<a href="EA199.htm">Fase E</a></ul>
+
+					</td>
+					<td class="contentcell"><div class="pageHeader"></div>
+<div class="PageBody">
+	<span class="ObjectTitle">  : Public  &lt;&lt;matrices y técnicas&gt;&gt; Artifact</span>
+	<table border="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">10/17/2022 11:55:40 AM</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">10/17/2022 11:56:21 AM</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">Alirio</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" >Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{FDD86B5C-8051-4f8e-9581-3AD0102DB3DE}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA197.htm">Fase E</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">El an&#225;lisis de brecha, es&#160;&#160;una t&#233;cnica de la&#160;&#160;parte III, sesi&#243;n 23 del ADM de&#160;&#160;TOGAF&#160;&#160;9.2&lt;br/&gt;&lt;br/&gt;La t&#233;cnica conocida como an&#225;lisis de brechas es ampliamente utilizada en el M&#233;todo de Desarrollo de Arquitectura (ADM) de TOGAF para validar una arquitectura que se est&#225; desarrollando. La premisa b&#225;sica es resaltar un d&#233;ficit entre la arquitectura de l&#237;nea base y la arquitectura de destino; es decir, elementos que se han omitido deliberadamente, se han omitido accidentalmente o que a&#250;n no se han definido.&lt;br/&gt;&lt;br/&gt;Revise los resultados del an&#225;lisis de brechas de la Fase B, C y D y consolide en una sola lista. Las brechas deben consolidarse junto con posibles soluciones a las brechas y dependencias.&lt;br/&gt;&lt;br/&gt;Las posibles fuentes de brechas incluyen:&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Brechas en el dominio del negocio:&lt;/li&gt;&lt;/ul&gt;<br />&#160;&#160;&#160;&#160;&#160;&#160;Brechas de personas (por ejemplo, requisitos de capacitaci&#243;n cruzada)&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;Brechas en el proceso (por ejemplo, ineficiencias del proceso)&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;Lagunas de herramientas (por ejemplo, funcionalidad de herramienta duplicada o faltante)&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;Lagunas de informaci&#243;n &lt;br/&gt;&#160;&#160;&#160;&#160;&#160;Brechas de medici&#243;n&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;D&#233;ficits financieros&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;Brechas de instalaciones (edificios, espacio de oficinas, etc.)&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Brechas en el dominio de datos:&lt;/li&gt;&lt;/ul&gt;<br />&#160;&#160;&#160;&#160;Datos que no son de suficiente moneda&lt;br/&gt;&#160;&#160;&#160;&#160;Datos no localizados donde se necesitan&lt;br/&gt;&#160;&#160;&#160;&#160;No los datos que se necesitan&lt;br/&gt;&#160;&#160;&#160;&#160;Datos no disponibles cuando se necesitan&lt;br/&gt;&#160;&#160;&#160;&#160;Datos no creados&lt;br/&gt;&#160;&#160;&#160;&#160;Datos no consumidos&lt;br/&gt;&#160;&#160;&#160;&#160;Brechas en la relaci&#243;n de datos&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Aplicaciones afectadas, eliminadas o creadas&lt;/li&gt;&lt;/ul&gt;<br />&lt;ul&gt;<br />&lt;li&gt;Tecnolog&#237;as impactadas, eliminadas o creadas&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Los pasos sugeridos son los siguientes:&lt;br/&gt;&lt;br/&gt;Elaborar una matriz con todos los bloques de construcci&#243;n de arquitectura (ABB) de la arquitectura de referencia en el eje vertical, y todos los ABB de la arquitectura de destino en el eje horizontal&lt;br/&gt;Agregue al eje Arquitectura de l&#237;nea base una &#250;ltima fila con la etiqueta &quot;Nuevo&quot; y al eje Arquitectura de destino una columna final con la etiqueta &quot;Eliminado&quot;&lt;br/&gt;Cuando un ABB est&#233; disponible tanto en la arquitectura de l&#237;nea base como en la de destino, reg&#237;strelo con &quot;Included&quot; en la celda de intersecci&#243;n&lt;br/&gt;Cuando falta un ABB de la arquitectura de l&#237;nea base en la arquitectura de destino, cada uno debe revisarse&lt;br/&gt;Si se elimin&#243; correctamente, m&#225;rquelo como tal en la celda &quot;Eliminado&quot; correspondiente. Si no fue as&#237;, se ha descubierto una omisi&#243;n accidental en la arquitectura de destino que debe abordarse restableciendo el ABB en la siguiente iteraci&#243;n del dise&#241;o de la arquitectura: m&#225;rquelo como tal en la celda &quot;Eliminado&quot; correspondiente.&lt;br/&gt;&lt;br/&gt;Cuando no se pueda encontrar un ABB de la arquitectura de destino en la arquitectura de l&#237;nea base, m&#225;rquelo en la intersecci&#243;n con la fila &quot;Nuevo&quot; como un hueco que debe llenarse, ya sea desarrollando o adquiriendo el bloque de creaci&#243;n&lt;br/&gt;Cuando se completa el ejercicio, cualquier cosa bajo &quot;Eliminado&quot; o &quot;Nuevo&quot; es una brecha, que debe explicarse como eliminada correctamente o marcarse como para ser abordada restableciendo o desarrollando / adquiriendo la funci&#243;n.&lt;br/&gt;&lt;br/&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+			<li onClick="toggleItem('Links');" id="LinksTitle">Other Links</li>
+		</ul>
+		<div class="ItemBody" id="CustomPropertiesTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="30%" class="TableHeading">Property</td>
+					<td width="70%" class="TableHeading">Value</td>
+				</tr>
+			<tr>
+				<td width="30%" class="TableRow">isFinalSpecialization:</td>
+				<td width="70%" class="TableRow">0</td>
+			</tr>
+
+
+			</table>
+		</div>		<div class="ItemBody" id="LinksTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Connection</td>
+					<td width="10%" class="TableHeading">Direction</td>
+					<td width="40%" class="TableHeading">Notes</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA215.htm">ProxyConnector</a></td>
+					<td width="10%" class="TableRow" valign="top">ProxyConnector</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+ </div>
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

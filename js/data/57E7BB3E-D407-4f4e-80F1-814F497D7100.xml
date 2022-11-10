@@ -1,0 +1,10 @@
+tocTab[tocTab.length] = new Array("0.1.2.2.6.2:1", "", "Fase F", "EARoot/EA1/EA2/EA2/EA6/EA2/EA586.htm", "175.png", "41", "0", "", "Logical diagram0","{C57F7843-0FE4-4ef6-AE20-F9A7B69274CE}");
+tocTab[tocTab.length] = new Array("0.1.2.2.6.2:2", "", ": Solicitud de Trabajo de Arquitectura", "EARoot/EA1/EA2/EA2/EA6/EA2/EA589.htm", "25.png", "E665", "0", "", "Object0","{6F69AFD3-F48E-4d52-A9C6-291084B1FE5E}");
+tocTab[tocTab.length] = new Array("0.1.2.2.6.2:3", "", ": Especificación de requisitos de arquitectura", "EARoot/EA1/EA2/EA2/EA6/EA2/EA590.htm", "25.png", "E666", "0", "", "Object0","{C03896A2-21D9-4b79-8331-291605988A33}");
+tocTab[tocTab.length] = new Array("0.1.2.2.6.2:4", "", ": Documento de definición de arquitectura", "EARoot/EA1/EA2/EA2/EA6/EA2/EA591.htm", "25.png", "E667", "0", "", "Object0","{69C4008F-1E19-4865-8842-306B8252F8C7}");
+tocTab[tocTab.length] = new Array("0.1.2.2.6.2:5", "", ": Hoja de rutas", "EARoot/EA1/EA2/EA2/EA6/EA2/EA592.htm", "25.png", "E668", "0", "", "Object0","{129BE1D0-6BAD-4428-B973-6600A6042ABD}");
+tocTab[tocTab.length] = new Array("0.1.2.2.6.2:6", "", ": Plan de implementación y migración", "EARoot/EA1/EA2/EA2/EA6/EA2/EA593.htm", "25.png", "E669", "0", "", "Object0","{85BA8FA5-3EE5-4917-BD47-C30D727FF67E}");
+tocTab[tocTab.length] = new Array("0.1.2.2.6.2:7", "", ": Modelo de Gobernanza de Implementación", "EARoot/EA1/EA2/EA2/EA6/EA2/EA594.htm", "25.png", "E670", "0", "", "Object0","{8E43542D-8E4A-442a-A967-B2AE635E66C4}");
+tocTab[tocTab.length] = new Array("0.1.2.2.6.2:8", "", ": Solicitud de cambio", "EARoot/EA1/EA2/EA2/EA6/EA2/EA595.htm", "25.png", "E671", "0", "", "Object0","{09748C2E-8208-4f12-8E3C-2BDD8B11D765}");
+tocTab[tocTab.length] = new Array("0.1.2.2.6.2:9", "", ": Bloque de construción de arquitectura", "EARoot/EA1/EA2/EA2/EA6/EA2/EA596.htm", "25.png", "E672", "0", "", "Object0","{30A82F32-9A81-4fd1-991D-302B2D151203}");
+tocTab[tocTab.length] = new Array("0.1.2.2.6.2:10", "", ": Declaración de trabajo de arquitectura", "EARoot/EA1/EA2/EA2/EA6/EA2/EA597.htm", "25.png", "E673", "0", "", "Object0","{1F6AAF16-9558-49d1-9850-A200154A92B6}");

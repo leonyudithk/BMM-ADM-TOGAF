@@ -1,0 +1,9 @@
+tocTab[tocTab.length] = new Array("0.1.2.2.6.1:1", "", "Fase E", "EARoot/EA1/EA2/EA2/EA6/EA1/EA575.htm", "175.png", "40", "0", "", "Logical diagram0","{4E003F49-63C6-4087-933B-E5A4A8EA25D1}");
+tocTab[tocTab.length] = new Array("0.1.2.2.6.1:2", "", ": Evaluación de la capacidad", "EARoot/EA1/EA2/EA2/EA6/EA1/EA578.htm", "25.png", "E654", "0", "", "Object0","{9C9676DB-25AD-41cc-9969-41AF72EBCE7C}");
+tocTab[tocTab.length] = new Array("0.1.2.2.6.1:3", "", ": Declaración de trabajo de arquitectura", "EARoot/EA1/EA2/EA2/EA6/EA1/EA579.htm", "25.png", "E655", "0", "", "Object0","{19674093-F191-4566-9589-20FE358032AD}");
+tocTab[tocTab.length] = new Array("0.1.2.2.6.1:4", "", ": Documento de definición de arquitectura", "EARoot/EA1/EA2/EA2/EA6/EA1/EA580.htm", "25.png", "E656", "0", "", "Object0","{008D7207-C558-48c7-9EA2-F91EBA90D822}");
+tocTab[tocTab.length] = new Array("0.1.2.2.6.1:5", "", ": Especificación de requisitos de arquitectura", "EARoot/EA1/EA2/EA2/EA6/EA1/EA581.htm", "25.png", "E657", "0", "", "Object0","{55CF6B59-48FC-47f8-AE94-E36ECD6BB6D6}");
+tocTab[tocTab.length] = new Array("0.1.2.2.6.1:6", "", ": Hoja de rutas", "EARoot/EA1/EA2/EA2/EA6/EA1/EA582.htm", "25.png", "E658", "0", "", "Object0","{D158B4D0-04D5-4e62-8084-92D4163E96E5}");
+tocTab[tocTab.length] = new Array("0.1.2.2.6.1:7", "", ": Visión de la arquitectura", "EARoot/EA1/EA2/EA2/EA6/EA1/EA583.htm", "25.png", "E659", "0", "", "Object0","{6684E30A-C19D-43a9-84CB-9EC0ADAFEDDA}");
+tocTab[tocTab.length] = new Array("0.1.2.2.6.1:8", "", ": Plan de implementación y migración", "EARoot/EA1/EA2/EA2/EA6/EA1/EA584.htm", "25.png", "E660", "0", "", "Object0","{A4DC1626-506C-49fb-8BBD-2366E6695FC0}");
+tocTab[tocTab.length] = new Array("0.1.2.2.6.1:9", "", ": Matrices, técnicas y Diagramas", "EARoot/EA1/EA2/EA2/EA6/EA1/EA585.htm", "25.png", "E661", "0", "", "Object0","{6C6D668B-563A-408a-A201-A43262663C87}");

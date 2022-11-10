@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.1.1:1", "", "Modelado Producto", "EARoot/EA1/EA1/EA4.htm", "175.png", "25", "0", "", "Logical diagram0","{FEEF5F0C-A2C8-4637-810B-CDAA81D749E8}");
+tocTab[tocTab.length] = new Array("0.1.1:2", "", "Evento y Flujo de trabajo", "EARoot/EA1/EA1/EA7.htm", "5.png", "E380", "0", "", "Class0","{B169C115-45B6-4d77-8235-09370045CF91}");
+tocTab[tocTab.length] = new Array("0.1.1:3", "", "Modelo de actores", "EARoot/EA1/EA1/EA8.htm", "5.png", "E379", "0", "", "Class0","{CB5F11C3-ED71-45aa-A70C-96B617DE8403}");
+tocTab[tocTab.length] = new Array("0.1.1:4", "", "Objetos de Negocios", "EARoot/EA1/EA1/EA9.htm", "5.png", "E378", "0", "", "Class0","{2003C92D-353A-4758-8EC4-3CF58D2CF697}");
+tocTab[tocTab.length] = new Array("0.1.1:5", "", "Proceso de Negocio", "EARoot/EA1/EA1/EA10.htm", "5.png", "E377", "0", "", "Class0","{37295E2E-381F-4956-925F-FD90D3942179}");

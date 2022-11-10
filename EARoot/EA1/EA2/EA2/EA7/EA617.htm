@@ -1,0 +1,304 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Objeto ó elementos del Negocio::Documento de definición de arquitectura</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Objeto ó elementos del Negocio::Documento de definición de arquitectura </h1>
+			<!-- <img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../index.htm">Modelados</a> / <a href="../../../EA1.htm">Modelos del método BMM</a> / <a href="../../EA11.htm">Modelado de Proceso</a> / <a href="../EA37.htm">Implementación del método BMM</a> / <a href="EA612.htm">Objeto ó elementos del Negocio</a> / <a href="EA617.htm">Documento de definición de arquitectura</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<a href="EA612.htm">Objeto ó elementos del Negocio</a></ul>
+
+					</td>
+					<td class="contentcell"><div class="pageHeader"></div>
+<div class="PageBody">
+	<span class="ObjectTitle">Documento de definición de arquitectura  : Public  &lt;&lt;Entrada arquitectónica&gt;&gt; Class</span>
+	<table border="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">10/16/2022 11:02:27 PM</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">10/27/2022 9:53:20 PM</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">Yudith L</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" >Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{A9836A1B-6A1A-4c21-BEB2-27ED5DE005A3}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="../EA5/EA1/EA1/EA134.htm">Fase E</a>, <a href="../EA5/EA1/EA2/EA147.htm">Fase F</a>, <a href="../EA5/EA1/EA3/EA161.htm">Fase G</a>, <a href="../EA5/EA1/EA4/EA171.htm">Fase H</a>, <a href="../EA5/EA2/EA1/EA197.htm">Fase E</a>, <a href="../EA5/EA2/EA2/EA269.htm">Fase F</a>, <a href="../EA5/EA2/EA3/EA325.htm">Fase G</a>, <a href="../EA5/EA2/EA3/EA1/EA2/EA367.htm">3. Guía de desarrollo de Implementación de Soluciones</a>, <a href="../EA5/EA2/EA4/EA388.htm">Fase H</a>, <a href="../EA5/EA2/EA4/EA1/EA1/EA413.htm">2.Implementar herramientas de monitoreo</a>, <a href="../EA5/EA2/EA2/EA1/EA2/EA309.htm">2. Asignación de un valor comercial a casa paquete de trabajo</a>, <a href="../EA6/EA537.htm">Modelo de objetos</a>, <a href="../EA6/EA1/EA575.htm">Fase E</a>, <a href="../EA6/EA2/EA586.htm">Fase F</a>, <a href="../EA6/EA3/EA598.htm">Fase G</a>, <a href="../EA6/EA4/EA606.htm">Fase H</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">El Borrador del Documento de Definici&#243;n de Arquitectura (Parte IV , 32.2.3 Documento de Definici&#243;n de Arquitectura )&lt;br/&gt;&lt;br/&gt;El Documento de definici&#243;n de arquitectura es el contenedor de entrega de los artefactos arquitect&#243;nicos principales creados durante un proyecto y de informaci&#243;n importante relacionada.&lt;br/&gt;&lt;br/&gt;El Documento de definici&#243;n de la arquitectura abarca todos los dominios de la arquitectura (negocios, datos, aplicaciones y tecnolog&#237;a) y tambi&#233;n examina todos los estados relevantes de la arquitectura (l&#237;nea de base, transici&#243;n y objetivo)., que incluye:&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Arquitectura empresarial de referencia, versi&#243;n 1.0 (detallada)&lt;/li&gt;&lt;li&gt;Target Business Architecture, versi&#243;n 1.0 (detallada)&lt;/li&gt;&lt;li&gt;Arquitectura de datos de referencia, versi&#243;n 1.0 (detallada)&lt;/li&gt;&lt;li&gt;Arquitectura de datos de destino, versi&#243;n 1.0 (detallada)&lt;/li&gt;&lt;li&gt;Arquitectura de aplicaciones de referencia, versi&#243;n 1.0 (detallada)&lt;/li&gt;&lt;li&gt;Arquitectura de la aplicaci&#243;n de destino, versi&#243;n 1.0 (detallada)&lt;/li&gt;&lt;li&gt;Arquitectura tecnol&#243;gica b&#225;sica, versi&#243;n 1.0 (detallada)&lt;/li&gt;&lt;li&gt;Arquitectura de tecnolog&#237;a de destino, versi&#243;n 1.0 (detallada)&lt;/li&gt;&lt;li&gt;Arquitecturas de transici&#243;n, si las hay&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Una arquitectura de transici&#243;n muestra a la empresa en un estado arquitect&#243;nicamente significativo entre las arquitecturas de referencia y de destino. Las arquitecturas de transici&#243;n se utilizan para describir las arquitecturas de destino de transici&#243;n necesarias para la realizaci&#243;n efectiva de la arquitectura de destino.&lt;br/&gt;&lt;br/&gt;El Documento de Definici&#243;n de Arquitectura es un complemento de la Especificaci&#243;n de Requisitos de Arquitectura, con un objetivo complementario:&lt;br/&gt;&lt;br/&gt;El Documento de Definici&#243;n de Arquitectura proporciona una visi&#243;n cualitativa de la soluci&#243;n y tiene como objetivo comunicar la intenci&#243;n de los arquitectos.&lt;br/&gt;&lt;br/&gt;La especificaci&#243;n de requisitos de la arquitectura proporciona una visi&#243;n cuantitativa de la soluci&#243;n y establece criterios medibles que deben cumplirse durante la implementaci&#243;n de la arquitectura&lt;br/&gt;&lt;br/&gt;El contenido t&#237;pico de un documento de definici&#243;n de arquitectura es:&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Alcance&lt;/li&gt;&lt;li&gt;Metas, objetivos y limitaciones&lt;/li&gt;&lt;li&gt;Principios de arquitectura&lt;/li&gt;&lt;li&gt;Arquitectura de l&#237;nea base&lt;/li&gt;&lt;li&gt;Modelos de arquitectura (para cada estado a modelar):&lt;/li&gt;&lt;li&gt;Modelos de Arquitectura Empresarial&lt;/li&gt;&lt;li&gt;Modelos de arquitectura de datos&lt;/li&gt;&lt;li&gt;Modelos de arquitectura de aplicaciones&lt;/li&gt;&lt;li&gt;Modelos de arquitectura tecnol&#243;gica&lt;/li&gt;&lt;li&gt;Justificaci&#243;n y justificaci&#243;n del enfoque arquitect&#243;nico&lt;/li&gt;&lt;li&gt;Asignaci&#243;n al repositorio de arquitectura:&lt;/li&gt;&lt;li&gt;Mapeo al paisaje arquitect&#243;nico&lt;/li&gt;&lt;li&gt;Asignaci&#243;n a modelos de referencia&lt;/li&gt;&lt;li&gt;Mapeo a est&#225;ndares&lt;/li&gt;&lt;li&gt;Evaluaci&#243;n de la reutilizaci&#243;n&lt;/li&gt;&lt;li&gt;An&#225;lisis de brechas&lt;/li&gt;&lt;li&gt;Evaluaci&#243;n de impacto&lt;/li&gt;&lt;li&gt;Arquitectura de transici&#243;n:&lt;/li&gt;&lt;li&gt;Definici&#243;n de estados de transici&#243;n&lt;/li&gt;&lt;li&gt;Arquitectura empresarial para cada estado de transici&#243;n&lt;/li&gt;&lt;li&gt;Arquitectura de datos para cada estado de transici&#243;n&lt;/li&gt;&lt;li&gt;Arquitectura de la aplicaci&#243;n para cada estado de transici&#243;n&lt;/li&gt;&lt;li&gt;Arquitectura tecnol&#243;gica para cada estado de transici&#243;n&lt;/li&gt;&lt;/ul&gt;&lt;p/&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
+			<li onClick="toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+			<li onClick="toggleItem('Links');" id="LinksTitle">Other Links</li>
+		</ul>
+		<div class="ItemBody" id="FlowToTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Name</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../EA5/EA1/EA1/EA145.htm">E: Oportunidades y  soluciones</a><br />
+						Activity &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow2543" /></button>Details:
+							<div id="detailsDIVLinkFlow2543" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../EA5/EA1/EA2/EA160.htm">F: Planificación de la Migración</a><br />
+						Activity &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow2544" /></button>Details:
+							<div id="detailsDIVLinkFlow2544" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="ItemBody" id="CustomPropertiesTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="30%" class="TableHeading">Property</td>
+					<td width="70%" class="TableHeading">Value</td>
+				</tr>
+			<tr>
+				<td width="30%" class="TableRow">isFinalSpecialization:</td>
+				<td width="70%" class="TableRow">0</td>
+			</tr>
+
+
+			</table>
+		</div>		<div class="ItemBody" id="LinksTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Connection</td>
+					<td width="10%" class="TableHeading">Direction</td>
+					<td width="40%" class="TableHeading">Notes</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA2/EA4/EA1/EA1/EA425.htm">«Activity» Supervise los cambios tecnológicos que podrían afectar la arquitectura de referencia</a></td>
+					<td width="10%" class="TableRow" valign="top">Activity</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA1/EA4/EA182.htm">«FASE ADM» Fase H: Gestión de cambio de arquitectura</a></td>
+					<td width="10%" class="TableRow" valign="top">Activity</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA2/EA2/EA1/EA2/EA315.htm">«Activity» El ajuste estratégico </a></td>
+					<td width="10%" class="TableRow" valign="top">Activity</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA2/EA4/EA399.htm">«Activity» 2. Implementar herramientas de monitoreo</a></td>
+					<td width="10%" class="TableRow" valign="top">Activity</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA563.htm">Entradas arquitectónicas</a></td>
+					<td width="10%" class="TableRow" valign="top">Class</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA2/EA3/EA340.htm">«Activity» 3 Guía de Desarrollo de Implementación de Soluciones</a></td>
+					<td width="10%" class="TableRow" valign="top">Activity</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA2/EA3/EA1/EA2/EA379.htm">«Activity» Formular recomendación de proyecto</a></td>
+					<td width="10%" class="TableRow" valign="top">Activity</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA1/EA3/EA169.htm">«FASE ADM» Fase G: Gobernanza de la Implementación </a></td>
+					<td width="10%" class="TableRow" valign="top">Activity</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA2/EA2/EA286.htm">«Activity» 2. Asignación de un valor comercial a cada paquete de trabajo</a></td>
+					<td width="10%" class="TableRow" valign="top">Activity</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA2/EA1/EA227.htm">«Activity» 2. Determinar las restricciones comerciales para la implementación</a></td>
+					<td width="10%" class="TableRow" valign="top">Activity</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+ </div>
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

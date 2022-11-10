@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Fase F</title>
+<link href="../../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Fase F </h1>
+			<!-- <img class="header_image" src="../../../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../../../index.htm">Modelados</a> / <a href="../../../../../EA1.htm">Modelos del método BMM</a> / <a href="../../../../EA11.htm">Modelado de Proceso</a> / <a href="../../../EA37.htm">Implementación del método BMM</a> / <a href="../../EA125.htm">Modelado de elementos del Negocio</a> / <a href="../EA191.htm">Diagramas de actividades</a> / <a href="EA271.htm">Fase F</a> / <a href="EA269.htm">Fase F</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../../../../images/4.png" alt="Package"/> <a href="./EA1/EA296.htm">Sub Procesos Fase F</a></li>
+<li><img src="../../../../../../../images/189.png" alt="Diagram"/> <a href="EA269.htm">Fase F</a></li>
+<li><img src="../../../../../../../images/25.png" alt="Object"/> <a href="EA281.htm">:Bloque de construción de arquitectura</a></li>
+<li><img src="../../../../../../../images/25.png" alt="Object"/> <a href="EA276.htm">:Declaración de trabajo de arquitectura</a></li>
+<li><img src="../../../../../../../images/25.png" alt="Object"/> <a href="EA278.htm">:Documento de definición de arquitectura</a></li>
+<li><img src="../../../../../../../images/25.png" alt="Object"/> <a href="EA283.htm">:Especificación de requisitos de arquitectura</a></li>
+<li><img src="../../../../../../../images/25.png" alt="Object"/> <a href="EA272.htm">:Hoja de rutas</a></li>
+<li><img src="../../../../../../../images/25.png" alt="Object"/> <a href="EA274.htm">:Hoja de rutas</a></li>
+<li><img src="../../../../../../../images/25.png" alt="Object"/> <a href="EA280.htm">:Modelo de Gobernanza de Implementación</a></li>
+<li><img src="../../../../../../../images/25.png" alt="Object"/> <a href="EA275.htm">:Plan de implementación y migración</a></li>
+<li><img src="../../../../../../../images/25.png" alt="Object"/> <a href="EA279.htm">:Plan de implementación y migración</a></li>
+<li><img src="../../../../../../../images/25.png" alt="Object"/> <a href="EA277.htm">:Solicitud de cambio</a></li>
+<li><img src="../../../../../../../images/25.png" alt="Object"/> <a href="EA282.htm">:Solicitud de Trabajo de Arquitectura</a></li>
+<li><img src="../../../../../../../images/21.png" alt="Activity"/> <a href="EA285.htm">1. Confirmar las interacciones del marco de gestión para el plan de implementación y migración</a></li>
+<li><img src="../../../../../../../images/21.png" alt="Activity"/> <a href="EA286.htm">2. Asignación de un valor comercial a cada paquete de trabajo</a></li>
+<li><img src="../../../../../../../images/21.png" alt="Activity"/> <a href="EA287.htm">3. Requerimientos de recursos estimados, tiempos del proyecto y disponibilidad/vehículo de entrega</a></li>
+<li><img src="../../../../../../../images/21.png" alt="Activity"/> <a href="EA288.htm">4 Priorizar los proyectos de migración mediante la realización de una evaluación de costos/beneficios y una validación de riesgos</a></li>
+<li><img src="../../../../../../../images/21.png" alt="Activity"/> <a href="EA289.htm">5. Confirmar la hoja de ruta de la arquitectura y actualizar el documento de definición de la arquitectura</a></li>
+<li><img src="../../../../../../../images/21.png" alt="Activity"/> <a href="EA290.htm">6 Completar el Plan de Implementación y Migración</a></li>
+<li><img src="../../../../../../../images/21.png" alt="Activity"/> <a href="EA291.htm">7.  Completar el ciclo de desarrollo de la arquitectura y documentar las lecciones aprendidas</a></li>
+<li><img src="../../../../../../../images/24.png" alt="Event"/> <a href="EA292.htm">fin</a></li>
+<li><img src="../../../../../../../images/24.png" alt="Event"/> <a href="EA293.htm">inicio</a></li>
+<li><img src="../../../../../../../images/82.png" alt="Artifact"/> <a href="EA273.htm">:Documento de Técnica de evaluacíon del  valor empresarial</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class=diagram_image> 
+<img src="EA270.png" usemap="#EA270" border="0" />
+
+<MAP NAME="EA270">
+<area shape="rect" coords="173,11,240,82" href="../../../EA7/EA629.htm" target="_self">
+<area shape="rect" coords="654,15,749,78" href="../../../EA7/EA627.htm" target="_self">
+<area shape="rect" coords="465,9,520,74" href="../../../EA7/EA634.htm" target="_self">
+<area shape="rect" coords="247,9,325,74" href="../../../EA7/EA626.htm" target="_self">
+<area shape="rect" coords="383,594,453,666" href="EA283.htm" target="_self">
+<area shape="rect" coords="359,371,433,433" href="../../../EA7/EA618.htm" target="_self">
+<area shape="rect" coords="296,599,358,662" href="EA282.htm" target="_self">
+<area shape="rect" coords="151,595,207,666" href="EA281.htm" target="_self">
+<area shape="rect" coords="267,371,341,433" href="../../../EA7/EA614.htm" target="_self">
+<area shape="rect" coords="179,371,253,433" href="../../../EA7/EA613.htm" target="_self">
+<area shape="rect" coords="220,595,286,666" href="EA280.htm" target="_self">
+<area shape="rect" coords="647,567,763,609" href="EA279.htm" target="_self">
+<area shape="rect" coords="934,600,1021,674" href="../../../EA7/EA650.htm" target="_self">
+<area shape="rect" coords="855,599,915,675" href="EA278.htm" target="_self">
+<area shape="rect" coords="1041,601,1126,675" href="../../../EA7/EA649.htm" target="_self">
+<area shape="rect" coords="1006,276,1067,331" href="EA277.htm" target="_self">
+<area shape="rect" coords="1038,7,1089,77" href="../../../EA7/EA632.htm" target="_self">
+<area shape="rect" coords="910,274,984,332" href="EA276.htm" target="_self">
+<area shape="rect" coords="779,11,864,78" href="../../../EA7/EA616.htm" target="_self">
+<area shape="rect" coords="165,271,232,327" href="EA275.htm" target="_self">
+<area shape="rect" coords="790,294,840,349" href="EA274.htm" target="_self">
+<area shape="rect" coords="976,7,1030,77" href="../../../EA7/EA620.htm" target="_self">
+<area shape="rect" coords="880,7,963,92" href="../../../EA7/EA652.htm" target="_self">
+<area shape="rect" coords="494,252,563,349" href="EA273.htm" target="_self">
+<area shape="rect" coords="383,266,433,318" href="EA272.htm" target="_self">
+<area shape="rect" coords="389,10,461,73" href="../../../EA7/EA617.htm" target="_self">
+<area shape="rect" coords="334,10,377,73" href="../../../EA7/EA622.htm" target="_self">
+<area shape="rect" coords="88,12,157,82" href="../../../EA7/EA628.htm" target="_self">
+<area shape="rect" coords="15,12,79,82" href="../../../EA7/EA623.htm" target="_self">
+<area shape="rect" coords="648,614,821,693" href="../../../EA7/EA645.htm" target="_self">
+<area shape="rect" coords="532,7,611,92" href="../../../EA7/EA651.htm" target="_self">
+<area shape="rect" coords="11,495,41,525" href="EA292.htm" target="_self">
+<area shape="rect" coords="10,162,40,192" href="EA293.htm" target="_self">
+<area shape="rect" coords="201,468,397,561" href="EA291.htm" target="_self">
+<area shape="rect" coords="633,459,778,549" href="EA290.htm" target="_self">
+<area shape="rect" coords="849,453,1051,551" href="EA289.htm" target="_self">
+<area shape="rect" coords="855,128,1076,232" href="EA288.htm" target="_self">
+<area shape="rect" coords="591,125,779,232" href="EA287.htm" target="_self">
+<area shape="rect" coords="360,125,537,225" href="./EA1/EA2/EA309.htm" target="_self">
+<area shape="rect" coords="106,126,298,229" href="./EA1/EA1/EA299.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">Fase F : Business Process diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">9/25/2022 12:00:00 AM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">10/31/2022 11:51:56 AM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">MAKAI</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{C23CCFD0-C27E-4159-BF5E-C047A6272D83}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

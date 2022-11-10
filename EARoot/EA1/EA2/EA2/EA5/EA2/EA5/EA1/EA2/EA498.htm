@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>4. Identificar requerimeintos cambiados</title>
+<link href="../../../../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> 4. Identificar requerimeintos cambiados </h1>
+			<!-- <img class="header_image" src="../../../../../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../../../../../index.htm">Modelados</a> / <a href="../../../../../../../EA1.htm">Modelos del método BMM</a> / <a href="../../../../../../EA11.htm">Modelado de Proceso</a> / <a href="../../../../../EA37.htm">Implementación del método BMM</a> / <a href="../../../../EA125.htm">Modelado de elementos del Negocio</a> / <a href="../../../EA191.htm">Diagramas de actividades</a> / <a href="../../EA440.htm">Gestión de Requisitos</a> / <a href="../EA479.htm">Sub-Procesos Gestión de requisitos</a> / <a href="EA500.htm">4. Identificar requerimeintos cambiados</a> / <a href="EA498.htm">4. Identificar requerimeintos cambiados</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../../../../../../images/189.png" alt="Diagram"/> <a href="EA498.htm">4. Identificar requerimeintos cambiados</a></li>
+<li><img src="../../../../../../../../../images/21.png" alt="Activity"/> <a href="EA503.htm">Agregar requisitos y reevaluar prioridades</a></li>
+<li><img src="../../../../../../../../../images/21.png" alt="Activity"/> <a href="EA504.htm">Eliminar o reevaluar prioridades</a></li>
+<li><img src="../../../../../../../../../images/21.png" alt="Activity"/> <a href="EA507.htm">Modificar los requisitos existentes</a></li>
+<li><img src="../../../../../../../../../images/24.png" alt="Event"/> <a href="EA505.htm">fin</a></li>
+<li><img src="../../../../../../../../../images/24.png" alt="Event"/> <a href="EA506.htm">inicio</a></li>
+<li><img src="../../../../../../../../../images/82.png" alt="Artifact"/> <a href="EA502.htm">:Cambios en requisitos</a></li>
+<li><img src="../../../../../../../../../images/82.png" alt="Artifact"/> <a href="EA501.htm">:Prioridades de Requisitos</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class=diagram_image> 
+<img src="EA499.png" usemap="#EA499" border="0" />
+
+<MAP NAME="EA499">
+<area shape="rect" coords="492,144,572,199" href="EA502.htm" target="_self">
+<area shape="rect" coords="98,140,179,199" href="EA501.htm" target="_self">
+<area shape="rect" coords="477,11,587,71" href="EA507.htm" target="_self">
+<area shape="rect" coords="297,15,407,75" href="EA503.htm" target="_self">
+<area shape="rect" coords="84,10,194,70" href="EA504.htm" target="_self">
+<area shape="rect" coords="644,17,674,47" href="EA505.htm" target="_self">
+<area shape="rect" coords="10,25,40,55" href="EA506.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">4. Identificar requerimeintos cambiados : Business Process diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">10/2/2022 10:29:17 AM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">10/27/2022 5:32:23 PM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">MAKAI</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{13E05E9A-A7D7-4365-A426-7A55CBA1B257}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

@@ -1,0 +1,7 @@
+tocTab[tocTab.length] = new Array("0.1.2.2.1", "1", "Jerarquía de procesos del sistema de negocios", "EARoot/EA1/EA2/EA2/EA1/EA47.htm", "4.png", "", "", "{7871EEA4-FB80-4d68-A70A-0D3572BC6DA6}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2.2.2", "1", "Modelado de Eventos y Flujo de Trabajo", "EARoot/EA1/EA2/EA2/EA2/EA56.htm", "4.png", "", "", "{18761A9D-D1B8-4c1e-85F0-09245B189478}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2.2.3", "1", "Modelo de Cadena de Valor", "EARoot/EA1/EA2/EA2/EA3/EA78.htm", "4.png", "", "", "{A5060D7D-85EE-47a0-BF33-554F5E26DD15}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2.2.4", "1", "Modelado de actores", "EARoot/EA1/EA2/EA2/EA4/EA90.htm", "4.png", "", "", "{742FEE0B-40CE-464c-92CA-829C8FD13F7C}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2.2.5", "1", "Modelado de elementos del Negocio", "EARoot/EA1/EA2/EA2/EA5/EA125.htm", "4.png", "", "", "{FFE4E4ED-72B5-464e-9C99-9DD851DDDD73}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2.2.6", "1", "Modelo de objetos", "EARoot/EA1/EA2/EA2/EA6/EA539.htm", "4.png", "", "", "{BE6B3B09-68C1-4301-A530-230216ACDA54}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2.2.7", "1", "Objeto ó elementos del Negocio", "EARoot/EA1/EA2/EA2/EA7/EA612.htm", "4.png", "", "", "{A068369C-17EE-4250-948D-358BB5668A72}", "Package");

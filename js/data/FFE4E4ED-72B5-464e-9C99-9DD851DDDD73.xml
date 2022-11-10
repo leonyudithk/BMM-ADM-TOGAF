@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.2.2.5.1", "1", "Diagrama Procesos - Eriksson Penker", "EARoot/EA1/EA2/EA2/EA5/EA1/EA128.htm", "4.png", "", "", "{CE770C71-129D-4346-9D90-9E7C799DE354}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2.2.5.2", "1", "Diagramas de actividades", "EARoot/EA1/EA2/EA2/EA5/EA2/EA191.htm", "4.png", "", "", "{5EBA1EDE-A50D-4df8-A146-2B5A313CC917}", "Package");

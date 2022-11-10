@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.1.2.1.2:1", "", "Jerarquias de procesos de negocios", "EARoot/EA1/EA2/EA1/EA2/EA29.htm", "189.png", "28", "0", "", "Analysis diagram0","{09D74B64-3728-4660-928D-D76A19ECD388}");
+tocTab[tocTab.length] = new Array("0.1.2.1.2:2", "", "«process» Modelado de eventos y flujo de trabajo", "EARoot/EA1/EA2/EA1/EA2/EA32.htm", "21.png", "E389", "0", "", "Activity0","{229DAD04-CFBA-4cf3-8371-1A4CF52E3195}");
+tocTab[tocTab.length] = new Array("0.1.2.1.2:3", "", "«process» Modelado de los actores del negocio", "EARoot/EA1/EA2/EA1/EA2/EA33.htm", "21.png", "E388", "0", "", "Activity0","{1C7891CD-1F63-4629-914E-18EA9B8619E6}");
+tocTab[tocTab.length] = new Array("0.1.2.1.2:4", "", "«process» Modelado de los elementos del negocio", "EARoot/EA1/EA2/EA1/EA2/EA34.htm", "21.png", "E385", "0", "", "Activity0","{87935E91-9DD3-4e43-B662-477C044020A4}");
+tocTab[tocTab.length] = new Array("0.1.2.1.2:5", "", "«process» Modelado de los procesos del negocio", "EARoot/EA1/EA2/EA1/EA2/EA35.htm", "21.png", "E386", "0", "", "Activity0","{53DFA4FA-BCD5-49fa-BAF6-9DCF132DD4D1}");
+tocTab[tocTab.length] = new Array("0.1.2.1.2:6", "", "«process» Modelado de objetos del Negocio", "EARoot/EA1/EA2/EA1/EA2/EA36.htm", "21.png", "E387", "0", "", "Activity0","{8784D48B-A694-42b2-9274-B8889A9C9C89}");

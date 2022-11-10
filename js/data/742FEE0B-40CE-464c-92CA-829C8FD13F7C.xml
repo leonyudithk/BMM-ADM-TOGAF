@@ -1,0 +1,10 @@
+tocTab[tocTab.length] = new Array("0.1.2.2.4:1", "", "Modelado de actores", "EARoot/EA1/EA2/EA2/EA4/EA88.htm", "175.png", "37", "0", "", "Logical diagram0","{DA02F8E3-4270-4cf5-9746-81E087F9110F}");
+tocTab[tocTab.length] = new Array("0.1.2.2.4:2", "", "Arquitecto", "EARoot/EA1/EA2/EA2/EA4/EA96.htm", "6.png", "E362", "0", "", "Actor0","{C8ACE6FF-079F-4e9d-A1CB-6C85F7F1019E}");
+tocTab[tocTab.length] = new Array("0.1.2.2.4:3", "", "Diseñador de TI", "EARoot/EA1/EA2/EA2/EA4/EA97.htm", "6.png", "E363", "0", "", "Actor0","{D8686D96-B8C1-479a-B138-F2E2A4E668B3}");
+tocTab[tocTab.length] = new Array("0.1.2.2.4:4", "", "Gerente o Líder de Arquitectura", "EARoot/EA1/EA2/EA2/EA4/EA98.htm", "6.png", "E358", "0", "", "Actor0","{CFEE0C9C-B521-4730-BB72-0D88B211DF3C}");
+tocTab[tocTab.length] = new Array("0.1.2.2.4:5", "", "Gerente o Líder de programas,  proyectos, portafolios", "EARoot/EA1/EA2/EA2/EA4/EA99.htm", "6.png", "E158", "0", "", "Actor0","{98BCFE76-4741-47f0-9310-BE115F126D81}");
+tocTab[tocTab.length] = new Array("0.1.2.2.4.1", "1", "Fase E", "EARoot/EA1/EA2/EA2/EA4/EA1/EA102.htm", "4.png", "", "", "{1DF8290E-E98F-4a49-B3C0-A96586723B0F}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2.2.4.2", "1", "Fase F", "EARoot/EA1/EA2/EA2/EA4/EA2/EA107.htm", "4.png", "", "", "{9295E84A-8AB6-4164-A02B-2AA3733DF186}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2.2.4.3", "1", "Fase G", "EARoot/EA1/EA2/EA2/EA4/EA3/EA112.htm", "4.png", "", "", "{DB11AB39-B345-4393-A6EF-FADA234B8BEE}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2.2.4.4", "1", "Fase H", "EARoot/EA1/EA2/EA2/EA4/EA4/EA117.htm", "4.png", "", "", "{8CCAF595-80A6-4ab8-A683-D6B39D3919C1}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2.2.4.5", "1", "Gestión de requisitos", "EARoot/EA1/EA2/EA2/EA4/EA5/EA122.htm", "4.png", "", "", "{FA8EA75C-E582-4421-912D-CF8FCC2277F2}", "Package");

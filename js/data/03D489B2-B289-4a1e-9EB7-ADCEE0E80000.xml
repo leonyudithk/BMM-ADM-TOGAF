@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.1.2.2.6.3:1", "", "Fase G", "EARoot/EA1/EA2/EA2/EA6/EA3/EA598.htm", "175.png", "42", "0", "", "Logical diagram0","{90CC05B6-73B9-4faf-A000-60B815656BDB}");
+tocTab[tocTab.length] = new Array("0.1.2.2.6.3:2", "", ": Contrato de arquitectura", "EARoot/EA1/EA2/EA2/EA6/EA3/EA601.htm", "25.png", "E677", "0", "", "Object0","{7958B309-AA12-46f9-BA9E-4C9C064EDAE4}");
+tocTab[tocTab.length] = new Array("0.1.2.2.6.3:3", "", ": Evaluación del cumplimiento", "EARoot/EA1/EA2/EA2/EA6/EA3/EA602.htm", "25.png", "E678", "0", "", "Object0","{0BBDC807-F74E-4f0b-8E79-92FE5BFE5284}");
+tocTab[tocTab.length] = new Array("0.1.2.2.6.3:4", "", ": Solicitud de cambio", "EARoot/EA1/EA2/EA2/EA6/EA3/EA603.htm", "25.png", "E679", "0", "", "Object0","{2BEF6826-94AC-4f68-9A2B-855AEC79B096}");
+tocTab[tocTab.length] = new Array("0.1.2.2.6.3:5", "", ": Bloque de creación de soluciones", "EARoot/EA1/EA2/EA2/EA6/EA3/EA604.htm", "25.png", "E680", "0", "", "Object0","{69A57974-603A-4cc3-81FA-5311FBE7CF39}");
+tocTab[tocTab.length] = new Array("0.1.2.2.6.3:6", "", ": Declaración de trabajo de arquitectura", "EARoot/EA1/EA2/EA2/EA6/EA3/EA605.htm", "25.png", "E681", "0", "", "Object0","{B6BE44CE-C364-4277-BA3B-EC4287075248}");

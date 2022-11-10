@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Fase G</title>
+<link href="../../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Fase G </h1>
+			<!-- <img class="header_image" src="../../../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../../../index.htm">Modelados</a> / <a href="../../../../../EA1.htm">Modelos del método BMM</a> / <a href="../../../../EA11.htm">Modelado de Proceso</a> / <a href="../../../EA37.htm">Implementación del método BMM</a> / <a href="../../EA125.htm">Modelado de elementos del Negocio</a> / <a href="../EA191.htm">Diagramas de actividades</a> / <a href="EA327.htm">Fase G</a> / <a href="EA325.htm">Fase G</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../../../../images/4.png" alt="Package"/> <a href="./EA1/EA347.htm">Sub Procesos Fase G</a></li>
+<li><img src="../../../../../../../images/189.png" alt="Diagram"/> <a href="EA325.htm">Fase G</a></li>
+<li><img src="../../../../../../../images/25.png" alt="Object"/> <a href="EA330.htm">:Bloque de creación de soluciones</a></li>
+<li><img src="../../../../../../../images/25.png" alt="Object"/> <a href="EA332.htm">:Bloque de creación de soluciones</a></li>
+<li><img src="../../../../../../../images/25.png" alt="Object"/> <a href="EA334.htm">:Contrato de arquitectura</a></li>
+<li><img src="../../../../../../../images/25.png" alt="Object"/> <a href="EA336.htm">:Declaración de trabajo de arquitectura</a></li>
+<li><img src="../../../../../../../images/25.png" alt="Object"/> <a href="EA335.htm">:Evaluación del cumplimiento</a></li>
+<li><img src="../../../../../../../images/25.png" alt="Object"/> <a href="EA329.htm">:Plan de implementación y migración</a></li>
+<li><img src="../../../../../../../images/25.png" alt="Object"/> <a href="EA328.htm">:Solicitud de cambio</a></li>
+<li><img src="../../../../../../../images/25.png" alt="Object"/> <a href="EA333.htm">:Solicitud de cambio</a></li>
+<li><img src="../../../../../../../images/21.png" alt="Activity"/> <a href="EA338.htm">1. Confirmar el alcance y las prioridades de implementación con la gestión de desarrollo</a></li>
+<li><img src="../../../../../../../images/21.png" alt="Activity"/> <a href="EA339.htm">2. Identificar recursos y habilidades de implementación</a></li>
+<li><img src="../../../../../../../images/21.png" alt="Activity"/> <a href="EA340.htm">3 Guía de Desarrollo de Implementación de Soluciones</a></li>
+<li><img src="../../../../../../../images/21.png" alt="Activity"/> <a href="EA341.htm">4 Realizar revisiones de cumplimiento de la arquitectura empresarial</a></li>
+<li><img src="../../../../../../../images/21.png" alt="Activity"/> <a href="EA342.htm">5 Implementar operaciones comerciales y de TI</a></li>
+<li><img src="../../../../../../../images/21.png" alt="Activity"/> <a href="EA343.htm">6 Realizar una revisión posterior a la implementación y cerrar la implementación</a></li>
+<li><img src="../../../../../../../images/24.png" alt="Event"/> <a href="EA344.htm">fin</a></li>
+<li><img src="../../../../../../../images/24.png" alt="Event"/> <a href="EA345.htm">inicio</a></li>
+<li><img src="../../../../../../../images/82.png" alt="Artifact"/> <a href="EA331.htm">:Documento de Análisis de brecha de Arquitectura de Negocios </a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class=diagram_image> 
+<img src="EA326.png" usemap="#EA326" border="0" />
+
+<MAP NAME="EA326">
+<area shape="rect" coords="286,7,385,77" href="../../../EA7/EA614.htm" target="_self">
+<area shape="rect" coords="76,533,150,619" href="EA336.htm" target="_self">
+<area shape="rect" coords="156,533,223,619" href="EA335.htm" target="_self">
+<area shape="rect" coords="233,533,307,619" href="EA334.htm" target="_self">
+<area shape="rect" coords="309,533,370,619" href="EA333.htm" target="_self">
+<area shape="rect" coords="124,331,205,388" href="../../../EA7/EA621.htm" target="_self">
+<area shape="rect" coords="640,309,712,379" href="../../../EA7/EA629.htm" target="_self">
+<area shape="rect" coords="553,309,621,374" href="../../../EA7/EA633.htm" target="_self">
+<area shape="rect" coords="464,309,540,379" href="../../../EA7/EA634.htm" target="_self">
+<area shape="rect" coords="52,7,151,77" href="../../../EA7/EA623.htm" target="_self">
+<area shape="rect" coords="811,525,875,601" href="EA332.htm" target="_self">
+<area shape="rect" coords="864,318,938,409" href="../../../EA7/EA625.htm" target="_self">
+<area shape="rect" coords="523,7,622,77" href="../../../EA7/EA618.htm" target="_self">
+<area shape="rect" coords="734,7,788,77" href="../../../EA7/EA622.htm" target="_self">
+<area shape="rect" coords="627,6,726,78" href="../../../EA7/EA617.htm" target="_self">
+<area shape="rect" coords="802,7,864,77" href="../../../EA7/EA615.htm" target="_self">
+<area shape="rect" coords="209,247,269,320" href="EA330.htm" target="_self">
+<area shape="rect" coords="24,246,119,320" href="EA329.htm" target="_self">
+<area shape="rect" coords="328,245,406,356" href="../../../EA7/EA647.htm" target="_self">
+<area shape="rect" coords="137,247,194,320" href="EA328.htm" target="_self">
+<area shape="rect" coords="167,7,266,77" href="../../../EA7/EA628.htm" target="_self">
+<area shape="rect" coords="555,562,675,619" href="../../../EA7/EA645.htm" target="_self">
+<area shape="rect" coords="93,416,339,488" href="EA343.htm" target="_self">
+<area shape="rect" coords="481,428,663,504" href="EA342.htm" target="_self">
+<area shape="rect" coords="751,427,963,505" href="EA341.htm" target="_self">
+<area shape="rect" coords="622,123,823,206" href="./EA1/EA2/EA367.htm" target="_self">
+<area shape="rect" coords="345,123,513,205" href="EA339.htm" target="_self">
+<area shape="rect" coords="100,121,297,207" href="./EA1/EA1/EA350.htm" target="_self">
+<area shape="rect" coords="10,437,40,467" href="EA344.htm" target="_self">
+<area shape="rect" coords="30,141,60,171" href="EA345.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">Fase G : Business Process diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">9/25/2022 12:00:00 AM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">10/31/2022 11:58:23 AM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">MAKAI</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{1CA9E2A5-0F7F-4838-B168-CD1E33CBB5B0}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+
